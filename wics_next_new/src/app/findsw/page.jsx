@@ -28,9 +28,9 @@ export default function FindSW() {
     return (
         <>
             <Navbar></Navbar>
-            <div class="card" style={{height: "350px", width: "300px", backgroundColor: "orange", borderRadius: "5px"}}>
-            <div class="card-body" style={{paddingTop: "20px", paddingLeft: "10px"}}>
-                <h2 class="card-title"> Get Sure Walk Number </h2>
+            <div className="card" style={{height: "350px", width: "300px", backgroundColor: "orange", borderRadius: "5px"}}>
+            <div className="card-body" style={{paddingTop: "20px", paddingLeft: "10px"}}>
+                <h2 className="card-title"> Get Sure Walk Number </h2>
                 <br></br>
                 <form onSubmit={handleSubmit}>
                 <label style={{margin: "auto"}}>Enter Sure Walk Number

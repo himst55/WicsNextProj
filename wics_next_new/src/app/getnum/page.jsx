@@ -36,11 +36,11 @@ export default function GetNumber() {
           <Navbar></Navbar>
           <div style={{
              backgroundColor: "white", display: "block", textAlign: "center", padding: "100px 400px 125px 400px"}}>
-          <div class="card" style={{
+          <div className="card" style={{
              height: "300px", width: "325px", backgroundColor: "#f69521",
              borderRadius: "5px", display: "flex", alignItems: "center", justifyContent: "center"}}>
-            <div class="card-body" style={{paddingTop: "20px", paddingLeft: "10px"}}>
-                <h2 class="card-title"> Get Sure Walk Number </h2>
+            <div className="card-body" style={{paddingTop: "20px", paddingLeft: "10px"}}>
+                <h2 className="card-title"> Get Sure Walk Number </h2>
                 <br></br>
                 <form onSubmit={handleSubmit}>
                 <label style={{margin: "auto"}}>Enter UT EID
