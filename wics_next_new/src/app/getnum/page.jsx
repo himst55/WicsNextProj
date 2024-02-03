@@ -33,8 +33,12 @@ export default function GetNumber() {
 
     return (
         <>
-            <Navbar></Navbar>
-            <div class="card" style={{height: "350px", width: "300px", backgroundColor: "orange", borderRadius: "5px"}}>
+          <Navbar></Navbar>
+          <div style={{
+             backgroundColor: "white", display: "block", textAlign: "center", padding: "100px 400px 125px 400px"}}>
+          <div class="card" style={{
+             height: "300px", width: "325px", backgroundColor: "#f69521",
+             borderRadius: "5px", display: "flex", alignItems: "center", justifyContent: "center"}}>
             <div class="card-body" style={{paddingTop: "20px", paddingLeft: "10px"}}>
                 <h2 class="card-title"> Get Sure Walk Number </h2>
                 <br></br>
@@ -52,9 +56,9 @@ export default function GetNumber() {
                 </form>
             </div>
         </div>
-        {showVanNum && signedUp && <p>Your Sure Walk Number is {num}</p>}
+             {showVanNum && signedUp && <p style={{ paddingTop: "20px" }}>Your Sure Walk Number is {num}</p>}
         {showVanNum && notSignedUp && <p>You have not signed up for a sure walk</p>}
-
-        </>
+          </div>
+          </>
     )
 }
