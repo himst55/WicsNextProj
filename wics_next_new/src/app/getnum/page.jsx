@@ -34,7 +34,7 @@ export default function GetNumber() {
     return (
         <>
           <Navbar></Navbar>
-          <div style={{display: "block", textAlign: "center", padding: "100px 400px 125px 400px"}}>
+          <div style={{ height: "700px", display: "flex", alignItems: "center", justifyContent: "center" }}>
           <div className="card" style={{
                 height: "300px", width: "325px", backgroundColor: "#f69521", borderRadius: "5px",
                 display: "flex", alignItems: "center", justifyContent: "center", marginTop: "auto", marginBottom: "auto"
