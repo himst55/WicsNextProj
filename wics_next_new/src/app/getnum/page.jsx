@@ -28,7 +28,13 @@ export default function GetNumber() {
             setNotSignedUp(true)
             setNum(-1)
         }
-        
+       if (showVanNum && signedUp) {
+          alert("Your Sure Walk number is 353203")
+          setInfo("");
+       } else if (showVanNum && notSignedUp) {
+          alert("You have not signed up for a sure walk")
+          setInfo("");
+       }
     }
 
     return (
@@ -58,10 +64,10 @@ export default function GetNumber() {
                 <input type="submit"></input>
                 </form>
             </div>
-        </div>
-             {showVanNum && signedUp && <p style={{ paddingTop: "20px" }}>Your Sure Walk Number is {num}</p>}
-        {showVanNum && notSignedUp && <p>You have not signed up for a sure walk</p>}
+             </div>
           </div>
+             {/* {showVanNum && signedUp && <p style={{ paddingTop: "20px" }}>Your Sure Walk Number is {num}</p>}
+        {showVanNum && notSignedUp && <p>You have not signed up for a sure walk</p>} */}
           </>
     )
 }
