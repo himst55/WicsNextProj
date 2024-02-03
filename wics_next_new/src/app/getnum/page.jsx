@@ -36,8 +36,9 @@ export default function GetNumber() {
           <Navbar></Navbar>
           <div style={{display: "block", textAlign: "center", padding: "100px 400px 125px 400px"}}>
           <div className="card" style={{
-             height: "300px", width: "325px", backgroundColor: "#f69521",
-             borderRadius: "5px", display: "flex", alignItems: "center", justifyContent: "center"}}>
+                height: "300px", width: "325px", backgroundColor: "#f69521", borderRadius: "5px",
+                display: "flex", alignItems: "center", justifyContent: "center", marginTop: "auto", marginBottom: "auto"
+             }}>
             <div className="card-body" style={{paddingLeft: "10px"}}>
                 <h2 className="card-title"> Get Sure Walk Number </h2>
                    <br></br>
