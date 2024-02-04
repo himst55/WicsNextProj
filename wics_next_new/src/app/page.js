@@ -6,6 +6,8 @@ export default function Home() {
         <>
           <Navbar></Navbar>
              <h1 style={{ color: "#00608A", padding: "30px 0px 0px 30px", fontSize: "50px" }}>Where is my Sure Walk?</h1>
+             <br></br>
+             <br></br>
              <p style={{ color: "#00608A", padding: "15px 0px 0px 30px", fontSize: "20px"}}>Use your Sure Walk number to find how far away your Sure Walk is!</p>
           <Image
               src="/Background.png"
