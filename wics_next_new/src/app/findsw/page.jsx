@@ -19,10 +19,11 @@ export default function FindSW() {
         if (info == "353203") {
             setShowVanLoc(true)
             alert("You Entered a Valid Sure Walk Number. Please Click the \"See Location \" button to find your Sure Walk.")
+            setInfo("")
         } else {
             alert("Not a valid Sure Walk Number")
-        }
-        
+            setInfo("")
+        }        
     }
 
     return (
